@@ -1,7 +1,7 @@
-/terraform/.terraform/
+.terraform/
 README.md
-/terraform/variables.tf
+variables.tf
 /kubespray
-terraform/ansible.cfg
-terraform/ansible.tf
-terraform/inventory.tf
+ansible.cfg
+ansible.tf
+inventory.tf
