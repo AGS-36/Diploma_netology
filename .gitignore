@@ -1,0 +1,7 @@
+/terraform/.terraform/
+README.md
+/terraform/variables.tf
+/kubespray
+terraform/ansible.cfg
+terraform/ansible.tf
+terraform/inventory.tf
