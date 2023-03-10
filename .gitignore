@@ -1,6 +1,5 @@
 .terraform/
 README.md
-variables.tf
 /kubespray
 ansible.cfg
 ansible.tf
