@@ -23,6 +23,6 @@ resource "yandex_compute_instance" "node03" {
   }
 
   metadata = {
-    ssh-keys = "ubuntu:${file("~/.ssh/id_rsa.pub")}"
+    ssh-keys = vat.pub_key
   }
 }
