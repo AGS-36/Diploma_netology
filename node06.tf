@@ -23,6 +23,6 @@ resource "yandex_compute_instance" "node06" {
   }
 
   metadata = {
-    ssh-keys = var.key_pub
+    ssh-keys = var.pub_key
   }
 }
