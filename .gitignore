@@ -1,6 +1,3 @@
 .terraform/
 README.md
 /kubespray
-ansible.cfg
-ansible.tf
-inventory.tf

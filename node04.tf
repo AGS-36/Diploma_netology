@@ -11,7 +11,7 @@ resource "yandex_compute_instance" "node04" {
 
   boot_disk {
     initialize_params {
-      image_id    = "fd8emvfmfoaordspe1jr"
+      image_id    = data.yandex_compute_image.ubuntu_image.id
       name        = "node04"
       size        = "15"
     }
@@ -23,6 +23,6 @@ resource "yandex_compute_instance" "node04" {
   }
 
   metadata = {
-    ssh-keys = var.pub_key
+    user-data = "${file("./meta.yaml")}"
   }
 }

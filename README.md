@@ -1,2 +1,0 @@
-# Diploma_netology
-Diploma

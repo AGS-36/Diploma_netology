@@ -3,7 +3,7 @@ variable "ubuntu_22_04" {
 }
 
 variable "pub_key" {
-  default = ""
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDbSmF+9PSTaBpK4OKOc9s2mhHVGQollgSXVDdblmsx8t6r4LGOkE35Lb/Mh0/x7IDrlXmg33Tey3PLReAf1YN5psPbkBXPZKzpcpSg6991xszEa2CoLrnkDJovefZOjRhgELj7U2PWgrFBS73eRAdxSXyFgVM6OKVOv9bdPpTs49ZPHAxiraVl5g2/3QYS9Gt3/8TetbL8HJQwK9YtXZsSyUlut05vqB3J9F4lQFOVn/nK/ei1VHAwBmX3SWsuRf12mjPlV/hGUivMMO0pTHqnL18zhK2qsBifDFlPmyRTpZHD7Egeg7MadINB3PWpIwrlalBPblFeK7L13UuJGMhDndM4b3jZINPVAeE4w+cTOlTZw8AveCX2FcD56f6zJbRctTPTOwDgVEJtaeNPuM4vMneLWAic2yNGkBv//KK0qqH4JsOjYfZ1BKZSVdRJ6PuXyxMDUUSiaJeN0YtmAshxqyIcEMUVWPVr+CJClSKA79Baad/rcZU0AjYvkuS05vs="
 }
 
 variable "allow_ports" {
